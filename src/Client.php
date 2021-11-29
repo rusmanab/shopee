@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopee;
+namespace Rusmanab\Shopee;
 
 use GuzzleHttp\Client as HttpClient;
 use GuzzleHttp\ClientInterface;
@@ -122,10 +122,6 @@ class Client
         // end
 
 
-
-        $this->nodes['item'] = new Nodes\Item\Item($this);
-        $this->nodes['custom'] = new Nodes\Custom\Custom($this);
-        $this->nodes['discount'] = new Nodes\Discount\Discount($this);
 
     }
 

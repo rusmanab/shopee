@@ -6,10 +6,10 @@
         "shopee",
         "openapi"
     ],
-    "homepage": "https://github.com/minchao/shopee-php",
+    "homepage": "https://github.com/rusmanab/shopee",
     "license": "BSD-3-Clause",
     "support": {
-        "issues": "https://github.com/minchao/shopee-php/issues"
+        "issues": "https://github.com/rusmanab/shopee"
     },
     "require": {
         "php": ">=7.1",
@@ -19,7 +19,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Shopee\\": "src"
+            "Rusmanab\\Shopee\\": "src"
         }
     }
 }
