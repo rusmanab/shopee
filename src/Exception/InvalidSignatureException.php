@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopee\Exception;
+namespace Rusmanab\Shopee\Exception;
 
 use Exception;
 

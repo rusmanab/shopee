@@ -1,12 +1,12 @@
 <?php
 
-namespace Shopee\Nodes\AccountHealth;
+namespace Shopee\Nodes\Accounthealth;
 
-use Shopee\Nodes\NodeAbstract;
-use Shopee\RequestParametersInterface;
-use Shopee\ResponseData;
+use Rusmanab\Shopee\Nodes\NodeAbstract;
+use Rusmanab\Shopee\RequestParametersInterface;
+use Rusmanab\Shopee\ResponseData;
 
-class AccountHealth extends NodeAbstract
+class Accounthealth extends NodeAbstract
 {
     /**
      * The data metrics of shop performance

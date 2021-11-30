@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopee;
+namespace Rusmanab\Shopee;
 
 use Psr\Http\Message\ServerRequestInterface;
 

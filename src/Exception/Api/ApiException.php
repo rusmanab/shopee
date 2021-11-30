@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopee\Exception\Api;
+namespace Rusmanab\Shopee\Exception\Api;
 
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;

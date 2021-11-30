@@ -1,9 +1,9 @@
 <?php
 
-namespace Shopee\Nodes\Media;
+namespace Rusmanab\Shopee\Nodes\Media;
 
-use Shopee\Nodes\NodeAbstract;
-use Shopee\ResponseData;
+use Rusmanab\Shopee\Nodes\NodeAbstract;
+use Rusmanab\Shopee\ResponseData;
 
 class Media extends NodeAbstract
 {

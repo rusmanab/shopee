@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopee\Nodes\FollowPrize;
+namespace Rusmanab\Shopee\Nodes\FollowPrize;
 
-use Shopee\Nodes\NodeAbstract;
-use Shopee\RequestParametersInterface;
-use Shopee\ResponseData;
+use Rusmanab\Shopee\Nodes\NodeAbstract;
+use Rusmanab\Shopee\RequestParametersInterface;
+use Rusmanab\Shopee\ResponseData;
 
 class FollowPrize extends NodeAbstract
 {

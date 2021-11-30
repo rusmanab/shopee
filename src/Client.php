@@ -14,13 +14,13 @@ use InvalidArgumentException;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\UriInterface;
-use Shopee\Nodes\NodeAbstract;
-use Shopee\Nodes;
-use Shopee\Exception\Api\AuthException;
-use Shopee\Exception\Api\BadRequestException;
-use Shopee\Exception\Api\ClientException;
-use Shopee\Exception\Api\Factory;
-use Shopee\Exception\Api\ServerException;
+use Rusmanab\Shopee\Nodes\NodeAbstract;
+use Rusmanab\Shopee\Nodes;
+use Rusmanab\Shopee\Exception\Api\AuthException;
+use Rusmanab\Shopee\Exception\Api\BadRequestException;
+use Rusmanab\Shopee\Exception\Api\ClientException;
+use Rusmanab\Shopee\Exception\Api\Factory;
+use Rusmanab\Shopee\Exception\Api\ServerException;
 
 use function array_key_exists;
 use function array_merge;
@@ -29,13 +29,13 @@ use function json_encode;
 use function time;
 
 /**
- * @property Nodes\Item\Item $item
- * @property Nodes\Logistics\Logistics $logistics
- * @property Nodes\Order\Order $order
- * @property Nodes\Returns\Returns $returns
- * @property Nodes\Shop\Shop $shop
- * @property Nodes\Discount\Discount $discount
- * @property Nodes\ShopCategory\ShopCategory $shopCategory
+ * @property Rusmanab\Nodes\Item\Item $item
+ * @property Rusmanab\Nodes\Logistics\Logistics $logistics
+ * @property Rusmanab\Nodes\Order\Order $order
+ * @property Rusmanab\Nodes\Returns\Returns $returns
+ * @property Rusmanab\Nodes\Shop\Shop $shop
+ * @property Rusmanab\Nodes\Discount\Discount $discount
+ * @property Rusmanab\Nodes\ShopCategory\ShopCategory $shopCategory
  */
 class Client
 {
@@ -116,7 +116,7 @@ class Client
         $this->nodes['topPicks'] = new Nodes\TopPicks\TopPicks($this);
 
         $this->nodes['returns'] = new Nodes\Returns\Returns($this);
-        $this->nodes['accountHealth'] = new Nodes\AccountHealth\AccountHealth($this);
+        //$this->nodes['accountHealth'] = new Nodes\AccountHealth\Accounthealth($this);
         $this->nodes['publik'] = new Nodes\Publik\Publik($this);
         $this->nodes['shopCategory'] = new Nodes\ShopCategory\ShopCategory($this);
         // end

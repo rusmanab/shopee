@@ -1,10 +1,10 @@
 <?php
 
-namespace Shopee\Nodes\Voucher;
+namespace Rusmanab\Shopee\Nodes\Voucher;
 
-use Shopee\Nodes\NodeAbstract;
-use Shopee\RequestParametersInterface;
-use Shopee\ResponseData;
+use Rusmanab\Shopee\Nodes\NodeAbstract;
+use Rusmanab\Shopee\RequestParametersInterface;
+use Rusmanab\Shopee\ResponseData;
 
 class Voucher extends NodeAbstract
 {

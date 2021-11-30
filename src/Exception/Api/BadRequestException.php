@@ -1,6 +1,6 @@
 <?php
 
-namespace Shopee\Exception\Api;
+namespace Rusmanab\Shopee\Exception\Api;
 
 /**
  * There are errors in the input parameters

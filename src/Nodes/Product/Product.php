@@ -1,9 +1,9 @@
 <?php
 
-namespace Shopee\Nodes\Product;
+namespace Rusmanab\Shopee\Nodes\Product;
 
-use Shopee\Nodes\NodeAbstract;
-use Shopee\ResponseData;
+use Rusmanab\Shopee\Nodes\NodeAbstract;
+use Rusmanab\Shopee\ResponseData;
 
 class Product extends NodeAbstract
 {

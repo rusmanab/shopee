@@ -1,12 +1,12 @@
 <?php
 
-namespace Shopee\Nodes;
+namespace Rusmanab\Shopee\Nodes;
 
 use Psr\Http\Message\UriInterface;
-use Shopee\Client;
-use Shopee\RequestParameters;
-use Shopee\RequestParametersInterface;
-use Shopee\ResponseData;
+use Rusmanab\Shopee\Client;
+use Rusmanab\Shopee\RequestParameters;
+use Rusmanab\Shopee\RequestParametersInterface;
+use Rusmanab\Shopee\ResponseData;
 
 abstract class NodeAbstract
 {
