@@ -260,6 +260,7 @@ class Client
         $headers['Content-Type']  = 'application/json';
 
         $newQuery = "";
+        $newd     = [];
         if ( $methode == "GET" ){
 
             foreach($data as $key => $v){
@@ -268,16 +269,19 @@ class Client
                     foreach($data[$key] as $k => $v){
                         $newd[] = $key."=". $v;
                     }
-                    $newQuery.= implode("&", $newd);
-                    $newQuery = "&".$newQuery;
                     unset($data[$key]);
                 }
             }
         }
-
+        if (count($newd) > 0){
+            $newQuery = implode("&", $newd);
+            if (!empty($newQuery)){
+                $newQuery = "&".$newQuery;
+            }
+        }
 
         $jsonBody = $this->createJsonBody($data);
-        $file = $data;
+
         $data     = json_decode($jsonBody);
         if (isset($data->shopid)){
             unset($data->shop_id);

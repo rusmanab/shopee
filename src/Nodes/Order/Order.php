@@ -39,7 +39,7 @@ class Order extends NodeAbstract
      */
     public function getOrderDetails($parameters = []): ResponseData
     {
-        return $this->post('/api/v2/order/get_order_detail', $parameters);
+        return $this->get('/api/v2/order/get_order_detail', $parameters);
     }
 
 
