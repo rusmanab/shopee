@@ -18,7 +18,13 @@ class ResponseData
     {
         $json = $response->getBody()->getContents();
         $data = json_decode($json, true);
-
+        if (!is_array($data)){
+            $data= [
+                "error_code" => 401,
+                "error"      => "Masalah koneksi, silakan hubungkan kembali akun shopee.",
+                "message"    => "Connection Problem"
+            ];
+        }
         $this->response = $response;
         $this->data = $data;
     }
