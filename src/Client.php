@@ -109,7 +109,7 @@ class Client
         $this->nodes['media'] = new Nodes\Media\Media($this);
         $this->nodes['logistics'] = new Nodes\Logistics\Logistics($this);
         $this->nodes['order'] = new Nodes\Order\Order($this);
-
+        
         $this->nodes['payment'] = new Nodes\Payment\Payment($this);
         $this->nodes['voucher'] = new Nodes\Voucher\Voucher($this);
         $this->nodes['followPrize'] = new Nodes\FollowPrize\FollowPrize($this);
