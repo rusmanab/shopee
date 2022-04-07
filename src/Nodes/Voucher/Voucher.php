@@ -71,6 +71,6 @@ class Voucher extends NodeAbstract
      */
     public function getVoucherList($parameters = []): ResponseData
     {
-        return $this->post('/api/v2/voucher/get_voucher_list', $parameters);
+        return $this->get('/api/v2/voucher/get_voucher_list', $parameters);
     }
 }

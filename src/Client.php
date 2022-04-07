@@ -111,8 +111,11 @@ class Client
         $this->nodes['order'] = new Nodes\Order\Order($this);
         
         $this->nodes['payment'] = new Nodes\Payment\Payment($this);
+        $this->nodes['discount'] = new Nodes\Discount\Discount($this);
         $this->nodes['voucher'] = new Nodes\Voucher\Voucher($this);
         $this->nodes['followPrize'] = new Nodes\FollowPrize\FollowPrize($this);
+        $this->nodes['addOnDeal'] = new Nodes\AddOnDeal\AddOnDeal($this);
+        $this->nodes['bundle'] = new Nodes\Bundle\Bundle($this);
         $this->nodes['topPicks'] = new Nodes\TopPicks\TopPicks($this);
 
         $this->nodes['returns'] = new Nodes\Returns\Returns($this);
